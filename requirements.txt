@@ -1,8 +1,6 @@
-requirements
-
-1. streamlit 1.43.1 
-2. plotly 6.0.0
-3. pandas 2.2.3
+streamlit == 1.43.1 
+plotly == 6.0.0
+pandas == 2.2.3
 
 
 
