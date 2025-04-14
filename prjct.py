@@ -20,7 +20,6 @@ if f1 is not None:
     st.write(f':grey[{filename}]')
     df = pd.read_excel(filename)
 else:
-    os.chdir(r'C:\Users\L\Desktop\codes')
     df = pd.read_excel('Sample - Superstore.xls')
 
 
