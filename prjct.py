@@ -20,8 +20,8 @@ if f1 is not None:
     st.write(f':grey[{filename}]')
     df = pd.read_excel(filename)
 else:
-    df = pd.read_excel('Sample - Superstore.xls')
-
+    os.chdir(r"C:\Users\AEPAC\Desktop\Streamlit")
+    df = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
 
 col1 , col2 = st.columns((2))
 df["Order Date"] = pd.to_datetime(df['Order Date'])
